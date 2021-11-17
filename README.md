@@ -1,1 +1,1 @@
-# [Tejas-machinary-website](https://divvya007.github.io/react-gh-pages/)
+# [earning deployment](https://divvya007.github.io/react-gh-pages/)
