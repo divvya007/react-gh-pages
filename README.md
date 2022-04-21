@@ -1,5 +1,6 @@
 
 # How to deploy Create React App
+[click here for the link](https://t-divya.github.io/react-gh-pages/)
 
 ## Steps to follow
 
