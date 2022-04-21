@@ -1,4 +1,5 @@
-{"homepage": "http://divvya007.github.io/react-gh-pages",
+{
+  "homepage": "http://t-divya.github.io/react-gh-pages",
   "name": "react-gh-pages",
   "version": "0.1.0",
   "private": true,
@@ -12,10 +13,10 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
